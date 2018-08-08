@@ -1,0 +1,134 @@
+
+ * {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+header {
+  position: relative;
+  padding: 50px;
+  margin-bottom: 20px;
+  color: white;
+  background: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+}
+
+aside {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: white
+}
+
+footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+
+
+.col-4 {
+  width: 15%;
+  float: right;
+}
+
+
+.section2 {
+  width: 100%;
+  float: left;
+}
+
+.aside1 {
+  width: 33%;
+  height: 10em;
+  float: left;
+  margin-left: 30px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: rgb(133, 128, 128);
+}
+
+#name{
+  position: absolute;
+  top: 0px;
+  right:0px;
+  bottom: 0px;
+  left: 12%;
+  width: 20%;
+  height: 5em;
+  color: black;
+  font-size: 20px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  background: #00dfff;
+  
+}
+#about {
+  padding: 0px;
+  margin-top: 0px;
+  color: black;
+  background: white;
+  font-family: 'Times New Roman', Times, serif
+}
+
+#portfolio {
+  padding: 0px;
+  margin-top: 0px;
+  color: black;
+  background: white;
+  font-family: 'Times New Roman', Times, serif
+}
+
+#contact {
+  padding: 0px;
+  margin-top: 0px;
+  color:black;
+  background: white;
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+#full {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: rgb(119, 119, 121)
+}
+
+#division {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: rgb(133, 128, 128);
+  background: rgb(77, 46, 189);
+}
+
+/* Hypertext formatting */
+A.class1 {color:black}
+A.class1:link {text-decoration: none; color: black;}
+A.class1:visited {text-decoration: none; color: black;}
+A.class1:hover {text-decoration: underline; color: blue;}
+A.class1:active {text-decoration: none; color: purple;}
+
+A.class2 {color:black}
+A.class2:link {text-decoration: none; color: black;}
+A.class2:visited {text-decoration: none; color: black;}
+A.class2:hover {text-decoration: underline; color: blue;}
+A.class2:active {text-decoration: none; color: purple;}
+}
